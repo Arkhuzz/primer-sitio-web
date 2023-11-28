@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <title>Pandarens</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Pandarens</h1> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a class="active" href="personajes.html">Personajes principales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px">Personajes principales</h2>
+    <hr>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th>Nombre</th>
+            <th>Rol</th>
+            <th>Faccion</th>
+            <th>Estatus</th>
+            <th>Ubicacion</th>
+
+            <tr>
+                <td>Emperador ShaoHao</td>
+                <td>Ultimo Emperador, oculto el imperio Pandaren bajo un velo de niebla mistica</td>
+                <td>Imperio Pandaren</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Liu lang</td>
+                <td>El primer explorador Pandaren, dejo Pandaria para dedicarse a explorar el mundo</td>
+                <td>Imperio Pandaren</td>
+                <td>Fallecido</td>
+                <td>Enterrado en el bosque de los bastones, Isla Errante</td>
+            </tr>
+            <tr>
+                <td>Kang</td>
+                <td>El puño del primer amanecer, primer monje Pandaren y lider de la revolucion Pandaren</td>
+                <td>Imperio Pandaren</td>
+                <td>Fallecido</td>
+                <td>Desconocida</td>
+            </tr>
+            <tr>
+                <td>Chen Cerveza de Trueno</td>
+                <td>Legendario maestro cervecero errante</td>
+                <td>Independiente</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Li Li Cerveza de Trueno</td>
+                <td>Sobrina y compañera de Chen Cerveza de Trueno</td>
+                <td>Imperio Pandaren</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Eremita Cho</td>
+                <td>Actual lider de Los Eremitas</td>
+                <td>Los Eremitas</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Taran Zhu</td>
+                <td>Señor del Shadopan</td>
+                <td>Shadopan, Asalto del Shadopan</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Aysa Cantante de las Nubes</td>
+                <td>Representante de la alianza, Lider de los Tushui</td>
+                <td>Tushui Pandaren</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Ji Zarpa Ignea</td>
+                <td>Representante de la horda, Lider de los Huojin</td>
+                <td>Huo jin Pandaren</td>
+                <td>Vivo</td>
+                <td>Varias</td>
+            </tr>
+            <tr>
+                <td>Jiang</td>
+                <td>Primer Pandaren en domar una Serpiente de nube</td>
+                <td>Imperio Pandaren, Orden del dragon nimbo</td>
+                <td>Fallecido</td>
+                <td>Desconocida</td>
+            </tr>
+            <tr>
+                <td>Song</td>
+                <td>Alumno de Kang, fundador de los Eremitas</td>
+                <td>Imperio Pandaren, Los Eremitas</td>
+                <td>Fallecido</td>
+                <td>Desconocida</td>
+            </tr>
+            <tr>
+                <td>Maestro Shang Xi</td>
+                <td>Lider de la academia Shang Xi</td>
+                <td>Academia Shang Xi</td>
+                <td>Fallecido</td>
+                <td>Isla Errante</td>
+            </tr>
+            <tr>
+                <td>Zhu Ceja Larga</td>
+                <td>Cazador famoso, Fundador de la Provincia de Zhu y la Guardia de Zhu</td>
+                <td>Imperio Pandaren</td>
+                <td>Fallecido</td>
+                <td>Desconocida</td>
+            </tr>
+            <tr>
+                <td>Mojo Cerveza de Trueno</td>
+                <td>Guia Estratega e Instructor de Monjes</td>
+                <td>Alianza</td>
+                <td>Vivo</td>
+                <td>Lugar del accidente, Isla Bruma Azur</td>
+            </tr>
+        </table>
+    </div>   
+
+    <footer class="footer">
+        <p>Todo lo que se ha reflejado en esta pagina fue extraido del Videojuego World Of Warcraft by Blizzard Activision</p>
+    </footer>
+</body>
+</html>
